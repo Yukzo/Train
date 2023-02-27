@@ -21,7 +21,16 @@ public class Train
     /* Ticket price - how much a ticket costs. */
     private int ticketPrice;
     
-   
+    private int totalTakings;
+
+
+   public void getTotalTakings(int totalTakings) {
+     totalTakings = this.totalTakings;
+   }
+
+   public int resetTotalTakings(int totalTakings) {
+    return totalTakings = 0;
+   }
     
    
 
